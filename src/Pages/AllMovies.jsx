@@ -8,6 +8,7 @@ import { getAllMovie } from "../redux/actions/allMovieActions";
 
 const AllMovies = () => {
   const dispatch = useDispatch();
+  // tambahan
 
   const { allMovie } = useSelector((state) => state.seeAll);
 
